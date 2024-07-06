@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="./assets/guessNumber.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="head-sub">
+        <button class="btn again">Play Again!</button>
+        <span class="between">(Between 1 and 20)</span>
+      </div>
+      <h1 class="heading">Guess My Number</h1>
+      <div class="number">?</div>
+    </header>
+
+    <div class="container">
+      <div class="left">
+        <input
+          type="number"
+          class="guess"
+          placeholder="Enter Number here"
+          required
+        />
+        <button class="btn check" style="display: block">Check!</button>
+      </div>
+      <div class="right">
+        <p class="message">Start Guessing...</p>
+        <p class="score-label">💯 Score : <span class="score"> 20 </span></p>
+        <p class="highscore-label">
+          🥇 High Score : <span class="high-score"> 0 </span>
+        </p>
+      </div>
+    </div>
+    <footer class="footer">
+      <div>
+        <p>-- Veer@ welcomes you --</p>
+      </div>
+      <div>
+        <span
+          ><a href="https://www.linkedin.com/in/kattaveerababu/" target="_blank"
+            ><i class="fa-brands fa-linkedin icon"></i></a
+        ></span>
+        <span
+          ><a href="https://github.com/KATTAVEERABABU" target="_blank"
+            ><i class="fa-brands fa-github icon"></i></a
+        ></span>
+        <span
+          ><a
+            href="https://www.instagram.com/i.veeru7/?next=%2F"
+            target="_blank"
+            ><i class="fa-brands fa-instagram icon"></i></a
+        ></span>
+      </div>
+    </footer>
+    <script src="./assets/guessNumber.js"></script>
+    <script
+      src="https://kit.fontawesome.com/0e58dd38ed.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
