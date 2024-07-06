@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #033f47;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #e0f780;
+  font-size: 25px;
+}
+.header {
+  width: 100%;
+  height: 40vh;
+  /* border: 2px solid black; */
+  padding: 30px;
+  box-sizing: border-box;
+}
+.head-sub {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+}
+.number {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 2px solid;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  /* border: 2px solid black; */
+  height: 50vh;
+  justify-items: center;
+  align-items: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.btn {
+  background-color: #e0f780;
+  border: 1px solid #033f47;
+  color: #033f47;
+  padding: 12px 28px;
+  font-weight: 700;
+  border-radius: 8px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.guess {
+  padding: 20px;
+  margin: 30px 0px;
+  background: none;
+  border: 2px solid;
+  font-size: 15px;
+  border-radius: 8px;
+  color: #e0f780;
+}
+.btn:hover {
+  background-color: #033f47;
+  color: #e0f780;
+  border: 1px solid #e0f780;
+}
+.check {
+  margin: 0 auto;
+}
+.footer {
+  width: 100%;
+  font-size: 20px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  background-color: black;
+  position: fixed;
+  justify-content: space-around;
+}
+.icon {
+  color: whitesmoke;
+  margin-right: 20px;
+}
+@media (max-width: 860px) {
+  .header {
+    height: 30vh;
+  }
+  .container {
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1fr;
+  }
+  body {
+    font-size: 20px;
+  }
+  .footer {
+    width: 100%;
+    font-size: 15px;
+    height: 10vh;
+  }
+  .number {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    height: 35vh;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 55vh;
+  }
+  .right {
+    margin-top: 40px;
+  }
+  .number {
+    margin-top: 50px;
+  }
+  body {
+    font-size: 15px;
+  }
+  .guess {
+    padding: 10px;
+    margin: 20px 0px;
+    border: 2px solid;
+    font-size: 10px;
+    border-radius: 4px;
+  }
+  .footer {
+    height: 10vh;
+  }
+}
